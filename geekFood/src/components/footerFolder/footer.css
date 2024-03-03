@@ -1,0 +1,81 @@
+.footerContainer{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F3F4F6;
+}
+
+.innerFooterContainer{
+    width: 40%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.logocontainer{
+   width: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo>figure{   
+    width: 100px;
+    /* border: 2px solid rgb(23, 20, 20); */
+    border-radius: 50%;
+}
+
+.logo>figure>img{
+    width: 100px;
+    background-size: cover;
+    
+}
+
+.footerText{
+    width: 500px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin: 5px auto;
+    line-height: 1.5;
+    /* border-radius: 10px;
+    background-color: #F9FAFB;
+    box-shadow: 2px 2px 7px 1px #b0b3b5; */
+    color: #525456;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBar >ul>li , a{
+    text-decoration: none;
+    list-style: none;
+    color: #09090a;
+    font-size: 1.1rem;
+    padding: 0px 13px;
+}
+
+.footerIcons>ul>li , a{
+    text-decoration: none;
+    list-style: none;
+    color: #09090a;
+    font-size: 1.1rem;
+    padding: 0px 5px;
+}
