@@ -1,6 +1,10 @@
 import './footer.css';
 import logoJuice from './juicelogo.jpg';
-
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { TbWorld } from "react-icons/tb";
 function Footer(){
     return(
         <>
@@ -35,11 +39,11 @@ function Footer(){
                         <br></br>
                         <div className="footerIcons">
                             <ul>
-                            <li><a href=''>Face</a></li>
-                                <li><a href=''>Insta</a></li>
-                                <li><a href=''>Twiter</a></li>
-                                <li><a href=''>Gib</a></li>
-                                <li><a href=''>Worleb</a></li>
+                                <li><a href=''><FaFacebook/></a></li>
+                                <li><a href=''><FaInstagram/></a></li>
+                                <li><a href=''><FaTwitter/></a></li>
+                                <li><a href=''><FaGithub/></a></li>
+                                <li><a href=''><TbWorld/></a></li>
                             </ul>
                         </div>
                     </div>
