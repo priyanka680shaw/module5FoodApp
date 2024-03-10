@@ -4,6 +4,8 @@ import About from '../aboutFolder/about';
 import Testimonial from '../testimonialFolder/testimonial';
 import Footer from '../footerFolder/footer';
 import QuoteScreen from '../quote/quoteMainScreen';
+import ResturentCard from '../Resturents/ResturentCard';
+import ResturentScreenDisplay from '../Resturents/ResturentScreenDisplay';
 function MainScreen(){
     return(
         <>
@@ -13,11 +15,14 @@ function MainScreen(){
             <main>
                 {/* <div className="backgroundImage">
                     <Navbar/>
-                </div> */}
-                    {/* <About/>
-                    <Testimonial/> */}
+                </div> 
+                    <About/> */}
+                    {/* <Testimonial/> */}
                       
-                    <QuoteScreen/>
+                     {/* <QuoteScreen/> */}
+                     
+                     <ResturentScreenDisplay/>
+
             </main>
            
             <footer>
