@@ -3,7 +3,7 @@ import { GoStarFill } from "react-icons/go";
 import { ImSpoonKnife } from "react-icons/im";
 import './ResturentCard.css'
 function ResturentCard({name , address , addressline2 , outcode , postcode , type_of_food , rating}){
-    console.log(name)
+   
     return(
         <>
            <div className='ResCardContainer'>
